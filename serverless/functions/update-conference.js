@@ -5,10 +5,9 @@ exports.handler = TokenValidator(async function (context, event, callback) {
 	// Create a custom Twilio Response
 	// Set the CORS headers to allow Flex to make an HTTP request to the Twilio Function
 	const response = new Twilio.Response()
-	response.appendHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
+	response.appendHeader('Access-Control-Allow-Origin', '*')
 	response.appendHeader('Access-Control-Allow-Methods', 'OPTIONS, POST, GET')
 	response.appendHeader('Access-Control-Allow-Headers', 'Content-Type')
-	response.appendHeader('Access-Control-Allow-Credentials', 'true')
 
 	if (event.httpMethod === 'OPTIONS') {
 		response.setStatusCode(200)
