@@ -34,13 +34,40 @@ export default class OutboundCalleridPlugin extends FlexPlugin {
 		} else {
 			callerIds = [
 				{
-					phoneNumber:
-						manager.serviceConfiguration.outbound_call_flows.default.caller_id,
-					friendlyName: 'Testing 1',
+					phoneNumber: '+59323420110',
+					friendlyName: 'ECU',
 				},
 				{
-					phoneNumber: '+12025550100',
-					friendlyName: 'Testing 2',
+					phoneNumber: '+5180056329',
+					friendlyName: 'PER',
+				},
+				{
+					phoneNumber: '+56228402092',
+					friendlyName: 'CHI',
+				},
+				{
+					phoneNumber: '+15512927920 ',
+					friendlyName: 'US',
+				},
+				{
+					phoneNumber: '+523341702188',
+					friendlyName: 'MX',
+				},
+				{
+					phoneNumber: '+525593377288',
+					friendlyName: 'MX',
+				},
+				{
+					phoneNumber: '+525541637688',
+					friendlyName: 'MX',
+				},
+				{
+					phoneNumber: '+525592252232',
+					friendlyName: 'MX',
+				},
+				{
+					phoneNumber: '+525541627418',
+					friendlyName: 'MX',
 				},
 			]
 		}
