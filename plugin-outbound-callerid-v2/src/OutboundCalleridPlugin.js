@@ -50,6 +50,10 @@ export default class OutboundCalleridPlugin extends FlexPlugin {
 					friendlyName: 'US',
 				},
 				{
+					phoneNumber: '+576015149014',
+					friendlyName: 'COL',
+				},
+				{
 					phoneNumber: '+523341702188',
 					friendlyName: 'MX',
 				},
