@@ -32,46 +32,86 @@ export default class OutboundCalleridPlugin extends FlexPlugin {
 			console.log(PLUGIN_NAME, 'Asset data: ', data)
 			callerIds = data.callerIds
 		} else {
+			// callerIds = [
+			// 	{
+			// 		phoneNumber: '+59323420110',
+			// 		friendlyName: 'ECU',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+5180056329',
+			// 		friendlyName: 'PER',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+56228402092',
+			// 		friendlyName: 'CHI',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+15512927920 ',
+			// 		friendlyName: 'US',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+576015149014',
+			// 		friendlyName: 'COL',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+523341702188',
+			// 		friendlyName: 'MX',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+525593377288',
+			// 		friendlyName: 'MX',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+525541637688',
+			// 		friendlyName: 'MX',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+525592252232',
+			// 		friendlyName: 'MX',
+			// 	},
+			// 	{
+			// 		phoneNumber: '+525541627418',
+			// 		friendlyName: 'MX',
+			// 	},
+			// ]
+			// 			Nuevos números para Colombia:
+			// +57 6015110363
+			// +57 6015149092
+
+			// Nuevos números para Mexico:
+			// +523341712795
+			// +523341702171
+			// +523341712747
+			// +523341712839
+			// +523341712807
 			callerIds = [
 				{
-					phoneNumber: '+59323420110',
-					friendlyName: 'ECU',
-				},
-				{
-					phoneNumber: '+5180056329',
-					friendlyName: 'PER',
-				},
-				{
-					phoneNumber: '+56228402092',
-					friendlyName: 'CHI',
-				},
-				{
-					phoneNumber: '+15512927920 ',
-					friendlyName: 'US',
-				},
-				{
-					phoneNumber: '+576015149014',
+					phoneNumber: '+576015110363',
 					friendlyName: 'COL',
 				},
 				{
-					phoneNumber: '+523341702188',
-					friendlyName: 'MX',
+					phoneNumber: '+576015149092',
+					friendlyName: 'COL',
 				},
 				{
-					phoneNumber: '+525593377288',
-					friendlyName: 'MX',
+					phoneNumber: '+523341712795',
+					friendlyName: 'MEX1',
 				},
 				{
-					phoneNumber: '+525541637688',
-					friendlyName: 'MX',
+					phoneNumber: '+523341702171',
+					friendlyName: 'MEX2',
 				},
 				{
-					phoneNumber: '+525592252232',
-					friendlyName: 'MX',
+					phoneNumber: '+523341712747',
+					friendlyName: 'MEX3',
 				},
 				{
-					phoneNumber: '+525541627418',
-					friendlyName: 'MX',
+					phoneNumber: '+523341712839',
+					friendlyName: 'MEX4',
+				},
+				{
+					phoneNumber: '+523341712807',
+					friendlyName: 'MEX5',
 				},
 			]
 		}
