@@ -87,11 +87,11 @@ export default class OutboundCalleridPlugin extends FlexPlugin {
 			callerIds = [
 				{
 					phoneNumber: '+576015110363',
-					friendlyName: 'COL',
+					friendlyName: 'COL1',
 				},
 				{
 					phoneNumber: '+576015149092',
-					friendlyName: 'COL',
+					friendlyName: 'COL2',
 				},
 				{
 					phoneNumber: '+523341712795',
@@ -112,6 +112,10 @@ export default class OutboundCalleridPlugin extends FlexPlugin {
 				{
 					phoneNumber: '+523341712807',
 					friendlyName: 'MEX5',
+				},
+				{
+					phoneNumber: '+15596576180',
+					friendlyName: 'US1',
 				},
 			]
 		}
